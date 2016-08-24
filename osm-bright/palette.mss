@@ -21,33 +21,33 @@
 Map { font-directory: url(./fonts); }
 
 /* set up font sets for various weights and styles */
-@sans_lt:       "Open Sans Regular", "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
+@sans_lt:       "Cooper Hewitt Book", "Open Sans Regular", "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
                 "Mukti Narrow Regular", "gargi Medium", "TSCu_Paranar Regular", "Tibetan Machine Uni Regular", "Mallige Normal",
                 "Droid Sans Fallback Regular", "Unifont Medium", "unifont Medium";
 
 
-@sans_lt_italic:    "Open Sans Oblique", "DejaVu Sans Oblique", "Arundina Sans Italic", "TSCu_Paranar Italic", "Mallige NormalItalic",
+@sans_lt_italic: "Cooper Hewitt Book Italic",  "Open Sans Oblique", "DejaVu Sans Oblique", "Arundina Sans Italic", "TSCu_Paranar Italic", "Mallige NormalItalic",
                 "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
                 "Mukti Narrow Regular", "gargi Medium", "TSCu_Paranar Regular", "Tibetan Machine Uni Regular", "Mallige Normal",
                 "Droid Sans Fallback Regular", "Unifont Medium", "unifont Medium";
 
 
-@sans:          "Open Sans Semibold", "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
+@sans:          "CooperHewitt-Semibold", ""Open Sans Semibold", "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
                 "Mukti Narrow Regular", "gargi Medium", "TSCu_Paranar Regular", "Tibetan Machine Uni Regular", "Mallige Normal",
                 "Droid Sans Fallback Regular", "Unifont Medium", "unifont Medium";
 
-@sans_italic:   "Open Sans Semibold Italic",  "DejaVu Sans Oblique", "Arundina Sans Italic", "TSCu_Paranar Italic", "Mallige NormalItalic",
+@sans_italic:   "Cooper Hewitt Semibold Italic", ""Open Sans Semibold Italic",  "DejaVu Sans Oblique", "Arundina Sans Italic", "TSCu_Paranar Italic", "Mallige NormalItalic",
                 "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
                 "Mukti Narrow Regular", "gargi Medium", "TSCu_Paranar Regular", "Tibetan Machine Uni Regular", "Mallige Normal",
                 "Droid Sans Fallback Regular", "Unifont Medium", "unifont Medium";
 
 
-@sans_bold:  "Open Sans Bold", "DejaVu Sans Bold", "Arundina Sans Bold", "Padauk Bold", "Mukti Narrow Bold", "TSCu_Paranar Bold", "Mallige Bold",
+@sans_bold:  "Cooper Hewitt Bold", "Open Sans Bold", "DejaVu Sans Bold", "Arundina Sans Bold", "Padauk Bold", "Mukti Narrow Bold", "TSCu_Paranar Bold", "Mallige Bold",
              "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
              "Mukti Narrow Regular", "gargi Medium", "TSCu_Paranar Regular", "Tibetan Machine Uni Regular", "Mallige Normal",
              "Droid Sans Fallback Regular", "Unifont Medium", "unifont Medium";
 
-@sans_bold_italic:  "Open Sans Bold Italic","DejaVu Sans Bold Oblique", "DejaVu Sans Oblique", "Arundina Sans Italic", "TSCu_Paranar Italic", "Mallige NormalItalic",
+@sans_bold_italic:  "Cooper Hewitt Bold Italic", "Open Sans Bold Italic","DejaVu Sans Bold Oblique", "DejaVu Sans Oblique", "Arundina Sans Italic", "TSCu_Paranar Italic", "Mallige NormalItalic",
                 "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
                 "Mukti Narrow Regular", "gargi Medium", "TSCu_Paranar Regular", "Tibetan Machine Uni Regular", "Mallige Normal",
                 "Droid Sans Fallback Regular", "Unifont Medium", "unifont Medium";
@@ -61,11 +61,11 @@ Map { font-directory: url(./fonts); }
 /* LANDUSE & LANDCOVER COLORS
 /* ================================================================== */
 
-@land:              #FCFBE7;
-@water:             #C4DFF6;
-@grass:             #E6F2C1;
+@land:              #eaeaea;
+@water:             #82bbec;
+@grass:             #d5e997;
 @beach:             #FFEEC7;
-@park:              #DAF2C1;
+@park:              #b4e582;
 @cemetery:          #D6DED2;
 @wooded:            #C3D9AD;
 @agriculture:       #F2E8B6;
@@ -93,11 +93,11 @@ Map { font-directory: url(./fonts); }
  *         inner fill (inline).
  */
 
-@motorway_line:     #E65C5C;
+@motorway_line:     #ffaf40;
 @motorway_fill:     lighten(@motorway_line,10%);
 @motorway_case:     @motorway_line * 0.9;
 
-@trunk_line:        #E68A5C;
+@trunk_line:        #ffba59;
 @trunk_fill:        lighten(@trunk_line,10%);
 @trunk_case:        @trunk_line * 0.9;
 
